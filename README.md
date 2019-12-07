@@ -11,4 +11,9 @@
 ### Extraire du texte aprés une virgule (A1 par exemple)
 ```
 =REGEXEXTRACT(A1;",(.*)")
+
+```
+### Nettoyer le titre d'un scraping des résultats de recherche de profil Linkedin via un moteur de recherche (A1 par exemple)
+```
+=IF(REGEXMATCH(E3;" ...");REGEXREPLACE(E3;" ..."; "");REGEXEXTRACT(E3;"(.*) | LinkedIn"))
 ```
