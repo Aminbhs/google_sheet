@@ -26,3 +26,10 @@ Exemple pour une recherche : site:fr.linkedin.com/in -pub.dir "Tech marketer" Pa
 ```
 =IF(REGEXMATCH(E3;" ...");REGEXREPLACE(E3;" ..."; "");REGEXEXTRACT(E3;"(.*) | LinkedIn"))
 ```
+
+### Tester si le IMPORTXML marche pour un site (Si le titre de la page ne s'affiche pas, pas la peine de continuer)
+Ne pas oublier "http://" ou "https://" en début d'URL.
+```
+=importxml("L'url à tester ici";"//title")
+```
+
