@@ -15,7 +15,7 @@
 
 ### Nettoyer le titre d'un scraping des résultats de recherche de profil Linkedin via un moteur de recherche (A1 par exemple)
 
-Exemple pour une recherche : site:fr.linkedin.com/in -pub.dir "growth hacker" Paris
+Exemple pour une recherche : site:fr.linkedin.com/in -pub.dir "Tech marketer" Paris
 
 | Sans la formule        | Avec la formule           |
 | ------------- |:-------------:|
