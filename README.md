@@ -19,7 +19,7 @@ Exemple pour une recherche : site:fr.linkedin.com/in -pub.dir "growth hacker" Pa
 
 | Titre des résultats de recherche        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| Guillaume Enriquez - Growth Hacker - USTS | LinkedIn      | right-aligned | $1600 |
+| Guillaume Enriquez - Growth Hacker - USTS "|" LinkedIn      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
