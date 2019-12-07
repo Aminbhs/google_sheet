@@ -41,3 +41,5 @@ Bonus : Supprimer le mailto via une regex
 ```
 =REGEXEXTRACT(A2;"mailto:(.*)\?")
 ```
+Mise à jours du de ImportHtml, ImportFeed, ImportData, ImportXml : 1 heure
+
