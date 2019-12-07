@@ -15,9 +15,11 @@
 ```
 ### Nettoyer le titre d'un scraping des résultats de recherche de profil Linkedin via un moteur de recherche (A1 par exemple)
 
-| Titre des résultas de recherche        | Are           | Cool  |
+Exemple pour une recherche : site:fr.linkedin.com/in -pub.dir "growth hacker" Paris
+
+| Titre des résultats de recherche        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+| Guillaume Enriquez - Growth Hacker - USTS | LinkedIn      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
