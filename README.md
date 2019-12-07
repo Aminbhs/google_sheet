@@ -15,7 +15,7 @@
 ```
 ### Nettoyer le titre d'un scraping des résultats de recherche de profil Linkedin via un moteur de recherche (A1 par exemple)
 
-| Tables        | Are           | Cool  |
+| Titre des résultas de recherche        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
