@@ -24,8 +24,8 @@ Exemple pour une recherche : site:fr.linkedin.com/in -pub.dir "growth hacker" Pa
 
 | Sans la formule        | Avec la formule           |
 | ------------- |:-------------:|
-| Amin Bouhassoune - Chief Automation Officer - Freelance \| LinkedIn      | Amin Bouhassoune - Chief Automation Officer - Freelance      |
-| Amin Bouhassoune - Chief Automation Officer - Freelance ... | Amin Bouhassoune - Chief Automation Officer - Freelance      |
+| Amin Bouhassoune - Tech marketer - Freelance \| LinkedIn      | Amin Bouhassoune - Tech marketer - Freelance      |
+| Amin Bouhassoune - Tech marketer - Freelance ... | Amin Bouhassoune - Tech marketer - Freelance      |
 
 
 ```
