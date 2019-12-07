@@ -33,3 +33,11 @@ Ne pas oublier "http://" ou "https://" en début d'URL.
 =importxml("L'url à tester ici";"//title")
 ```
 
+### Extraire un mailto: dans une page HTML via un IMPORTXML
+```
+=importxml(A1; "//a[starts-with(@href, 'mailto')]/@href")
+```
+Bonus : Supprimer le mailto via une regex
+```
+=REGEXEXTRACT(A2;"mailto:(.*)\?")
+```
