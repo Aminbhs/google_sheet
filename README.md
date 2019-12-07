@@ -21,6 +21,13 @@ Exemple pour une recherche : site:fr.linkedin.com/in -pub.dir "growth hacker" Pa
 | ------------- |:-------------:| -----:|
 | Amin Bouhassoune - Chief Automation Officer - Freelance \| LinkedIn| Amin Bouhassoune - Chief Automation Officer - Freelance |
 | Amin Bouhassoune - Chief Automation Officer - Freelance ... | Amin Bouhassoune - Chief Automation Officer - Freelance |
+
+| Sans la formule        | Avec la formule           |
+| ------------- |:-------------:|
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
+
+
 ```
 =IF(REGEXMATCH(E3;" ...");REGEXREPLACE(E3;" ..."; "");REGEXEXTRACT(E3;"(.*) | LinkedIn"))
 ```
