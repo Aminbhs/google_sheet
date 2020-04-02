@@ -41,10 +41,14 @@ Ne pas oublier "http://" ou "https://" en début d'URL.
 ```
 =importxml(A1; "//meta[@name='description']/@content")
 ```
+Si ça ne marche pas tester la meta description de twitter
+```
+=importxml(A1; "//meta[@name='twitter:description']/@content")
+```
 ### Bonus : Supprimer le mailto via une regex
 ```
 =REGEXEXTRACT(A2;"mailto:(.*)\?")
 ```
 - Mise à jours du de ImportHtml, ImportFeed, ImportData, ImportXml : 1 heure
-- La formule importxml s'utilise seulement avec un site en https donc on peut l'ajouter avec une formule de concatenation
+- La formule importxml s'utilise seulement avec un site en http ou https donc on peut l'ajouter avec une formule de concatenation
 
