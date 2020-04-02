@@ -33,13 +33,18 @@ Ne pas oublier "http://" ou "https://" en début d'URL.
 =importxml("L'url à tester ici";"//title")
 ```
 
-### Extraire un mailto: dans une page HTML via un IMPORTXML
+### Extraire l'email d'un mailto: dans une page HTML via un IMPORTXML
 ```
 =importxml(A1; "//a[starts-with(@href, 'mailto')]/@href")
 ```
-Bonus : Supprimer le mailto via une regex
+### Extraire la description d'un site
+```
+=importxml(A1; "//meta[@name='description']/@content")
+```
+### Bonus : Supprimer le mailto via une regex
 ```
 =REGEXEXTRACT(A2;"mailto:(.*)\?")
 ```
-Mise à jours du de ImportHtml, ImportFeed, ImportData, ImportXml : 1 heure
+- Mise à jours du de ImportHtml, ImportFeed, ImportData, ImportXml : 1 heure
+- La formule importxml s'utilise seulement avec un site en https donc on peut l'ajouter avec une formule de concatenation
 
